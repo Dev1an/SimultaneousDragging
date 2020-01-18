@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		7424D3BC23D37FFB00F786D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7424D3BB23D37FFB00F786D7 /* AppDelegate.swift */; };
-		7424D3BE23D37FFB00F786D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7424D3BD23D37FFB00F786D7 /* SceneDelegate.swift */; };
 		7424D3C023D37FFB00F786D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7424D3BF23D37FFB00F786D7 /* ContentView.swift */; };
 		7424D3C223D37FFE00F786D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7424D3C123D37FFE00F786D7 /* Assets.xcassets */; };
 		7424D3C523D37FFE00F786D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7424D3C423D37FFE00F786D7 /* Preview Assets.xcassets */; };
 		7424D3C823D37FFE00F786D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7424D3C623D37FFE00F786D7 /* LaunchScreen.storyboard */; };
+		7424D3D023D3846B00F786D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7424D3CF23D3846B00F786D7 /* SceneDelegate.swift */; };
+		74F8936523D3868400E86BAC /* FingerOverlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F8936423D3868400E86BAC /* FingerOverlays.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7424D3B823D37FFB00F786D7 /* SimultaneousDragging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimultaneousDragging.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7424D3BB23D37FFB00F786D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7424D3BD23D37FFB00F786D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7424D3BF23D37FFB00F786D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7424D3C123D37FFE00F786D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7424D3C423D37FFE00F786D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7424D3C723D37FFE00F786D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7424D3C923D37FFE00F786D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7424D3CF23D3846B00F786D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74F8936423D3868400E86BAC /* FingerOverlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerOverlays.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				7424D3BB23D37FFB00F786D7 /* AppDelegate.swift */,
-				7424D3BD23D37FFB00F786D7 /* SceneDelegate.swift */,
+				7424D3CF23D3846B00F786D7 /* SceneDelegate.swift */,
 				7424D3BF23D37FFB00F786D7 /* ContentView.swift */,
+				74F8936423D3868400E86BAC /* FingerOverlays.swift */,
 				7424D3C123D37FFE00F786D7 /* Assets.xcassets */,
 				7424D3C623D37FFE00F786D7 /* LaunchScreen.storyboard */,
 				7424D3C923D37FFE00F786D7 /* Info.plist */,
@@ -147,8 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7424D3BC23D37FFB00F786D7 /* AppDelegate.swift in Sources */,
-				7424D3BE23D37FFB00F786D7 /* SceneDelegate.swift in Sources */,
 				7424D3C023D37FFB00F786D7 /* ContentView.swift in Sources */,
+				7424D3D023D3846B00F786D7 /* SceneDelegate.swift in Sources */,
+				74F8936523D3868400E86BAC /* FingerOverlays.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
